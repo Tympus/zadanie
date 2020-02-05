@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+        <div id="logo">
+            <img src="images/Logo-navy.svg">
+        </div>
+        <nav>
+            <a href="#">Strona główna</a>
+            <a href="#">Baza wiedzy</a>
+            <a href="#">Open source</a>
+            <a href="#">Blog</a>
+            <a class="active" href="#">Hire Us</a>
+        </nav>
+        <a href="#" class="login-button btn btn-red">Login</a>
+        <img class="hamburger" src="images/icon_hamburger.svg">
+        </div>
+        
+    </header>
+    <section id="slider">
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/phone_banner_photo.png">
+            <source media="(max-width: 1199px)" srcset="images/tablet_banner_photo.png">
+            <source media="(min-width: 1200px)" srcset="images/desktop_banner_photo.png">
+          <img src="images/phone_banner_photo.png" alt="sample alt">
+        </picture>
+        <div class="row">
+            <div class="s-content">
+                <h1>Angular House is part of ValueAdd company</h1>
+                <p>Over 92% of computers are infected with Adware and spyware. Such software is rarely accmpanied by uninstall<br>utility and even when it is it almost leaves broken Windows Registry keys behind it</p>
+                <a href="#" class="btn btn-red">Write us</a>
+            </div>
+        </div>
+    </section>
+    <section id="our-passion">
+        <h2 class="title">Our Passion</h2>
+        <div class="row flex-passion">
+            <div class="item">
+                <img src="images/icon_development.svg">
+                <h3>Development</h3>
+                <p>Living in today's metropolitan world of cellular phones, mobile computers.</p>
+            </div>
+            <div class="item">
+                <img src="images/icon_audyt.svg">
+                <h3>Audyt</h3>
+                <p>It is a good iidea to think of your PC as an office. It stories files, programs, pictures.</p>
+            </div>
+            <div class="item">
+                <img src="images/icon_audyt.svg">
+                <h3>Consulting</h3>
+                <p>Last month my wife, Anne Doe, took me to Las Vegas because she had to go.</p>
+            </div>
+        </div>
+    </section>
+    <section id="write-us">
+            <h2 class="title">Write Us</h2>
+            <div class="row-smaller">
+                <h5>Potrzebujesz pomocy z projektem?</h5>
+                <p>Napisz do nas, jesteśmy profesjonalistami w temacie programowania, consultingu i audytu IT</p>
+                <form>
+                    <label>Imię i nazwisko</label>
+                    <input placeholder="Jan Kowalski" />
+                    
+                    <label>Adres e-mail</label>
+                    <input placeholder="jan.kowalski@mojafirma.pl" />
+                    
+                    <label>Numer telefonu</label>
+                    <input placeholder="+48 285 285 687" />
+                    
+                    <label>Temat</label>
+                    <select>
+                        <option>Consulting</option>
+                        <option>Consulting 2</option>
+                        <option>Consulting 3</option>
+                    </select>
+                    
+                    <label>Treść</label>
+                    <textarea>Tutaj wpisz treść wiadomości...</textarea>
+                    
+                    <div class="form-accept">
+                        <input type="checkbox" id="rodoaccept">
+                        <label for="rodoaccept">Wysyłając wiadomość zgadzasz się na przekazanie Twoich danych osobowych</label>
+                        <span class="checkmark"></span>
+                    </div>
+                    
+                    <div class="flex-right">
+                        <button class="btn btn-red" type="submit">Wyślij</button>
+                       
+                    </div>
+                </form>
+            </div>
+    </section>
+    <section id="trusted-us">
+        <h2 class="title">Trusted Us</h2>
+        <div class="row">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+            <img src="images/trust-sample-logo.jpg" alt="sample logo">
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div id="logo">
+                <img src="images/HouseofAngular.svg">
+            </div>
+            <nav>
+                <a href="#">Strona główna</a>
+                <a href="#">Baza wiedzy</a>
+                <a href="#">Open source</a>
+                <a href="#">Blog</a>
+                <a href="#">Hire Us</a>
+            </nav>
+            <div>
+                <a href="#"><img class="social-icon" src="images/facebook-logo.svg"></a>
+                <a href="#"><img class="social-icon" src="images/github-sign.svg"></a>
+            </div>
+        </div>
+        <div class="copy"><span>Copyright © 2013-2019 ValueAdd. All rights reserved.</span></div>
+    </footer>
+    
+</body>
+</html>
